@@ -14,5 +14,6 @@ void setup() {
 
 }
 void loop() {
- 
+ stepper.step(STEPS_PER_360_DEGREE);
+  delay(600);
 }
